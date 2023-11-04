@@ -62,9 +62,9 @@ const displayProducts = (filteredProducts) => {
           <span class="name">${product.name}</span>
           <span class="priceText">$${product.price}</span>
         </div>
-    `
-    )
-    .join("");
+        `
+      )
+    .join("shan Ali Umar");
 };
 
 displayProducts(data);
